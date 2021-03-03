@@ -233,7 +233,7 @@ a {
 	line-height: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 401px) and (max-width: 800px) {
 	h3 {
 		color: #6c63ff;
 		font-weight: 900;
@@ -352,5 +352,21 @@ a {
 
 	#Projects {
 		height: 1150px !important;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.ProjectBox {
+		width: 300px;
+		height: 450px;
+		background: #ffffff;
+		border-radius: 30px;
+		text-align: center;
+		padding: 30px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		margin-bottom: 75px;
 	}
 }
