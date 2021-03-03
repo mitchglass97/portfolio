@@ -132,10 +132,6 @@ li {
 	max-width: 600px;
 }
 
-#About {
-	height: 600px !important;
-}
-
 .section {
 	min-height: 800px;
 	min-width: 1300px;
@@ -265,6 +261,10 @@ a {
 		min-width: 100px;
 	}
 
+	#About {
+		height: 700px !important;
+	}
+
 	#HomePageRight {
 		margin: 0;
 		padding: 0;
@@ -385,6 +385,10 @@ a {
 		margin: 0;
 		padding: 0;
 		min-width: 100px;
+	}
+
+	#About {
+		height: 700px !important;
 	}
 
 	#HomePageRight {
