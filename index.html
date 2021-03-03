@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="fullpageJS/fullpage.css"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header id="header">
+			<ul class="nav">
+				<li data-menuanchor="page1">
+					<a href="#Home"
+						>Home
+						<img
+							src="./assets/home-outline.svg"
+					/></a>
+				</li>
+				<li data-menuanchor="page2">
+					<a href="#About"
+						>About Me<img
+							src="./assets/information-circle-outline.svg"
+					/></a>
+				</li>
+				<li data-menuanchor="page3">
+					<a href="#Skills"
+						>Skills<img
+							src="./assets/construct-outline.svg"
+					/></a>
+				</li>
+				<li data-menuanchor="page4">
+					<a href="#Projects"
+						>Projects<img
+							src="./assets/cube-outline.svg"
+					/></a>
+				</li>
+				<li>
+					<a
+						href="https://github.com/mitchglass97"
+						>GitHub<img
+							src="./assets/logo-github.svg"
+					/></a>
+				</li>
+			</ul>
+		</header>
+		<div id="fullpage">
+			<div class="section" id="Home">
+				<div id="HomePageLeft">
+					<div id="HomePageTextContainer">
+						<h3>Mitch Glass</h3>
+						<h1>Developer</h1>
+					</div>
+				</div>
+				<div id="HomePageRight">
+					<img
+						src="./assets/programmer.svg"
+						alt="Programmer vector image"
+					/>
+				</div>
+			</div>
+			<div class="section" id="About">
+				<div id="AboutTextContainer">
+					<h3>About Me</h3>
+				</div>
+				<div id="AboutImageContainer">
+					<img src="./assets/carbon.PNG" />
+				</div>
+			</div>
+			<div class="section" id="Skills">
+				<div id="SkillsTextContainer">
+					<h3>Skills</h3>
+				</div>
+				<div id="SkillsImageContainer">
+					<div class="SkillsBox">
+						<h3>Languages</h3>
+						<h1>HTML</h1>
+						<h1>CSS</h1>
+						<h1>JavaScript</h1>
+						<h1>SQL (PostgreSQL)</h1>
+					</div>
+					<div class="SkillsBox">
+						<h3>Frameworks/Tools</h3>
+						<h1>ReactJS</h1>
+						<h1>Git/GitHub</h1>
+						<h1>Visual Studio Code</h1>
+						<h1>Figma</h1>
+					</div>
+				</div>
+			</div>
+			<div class="section" id="Projects">
+				<div id="ProjectsTextContainer">
+					<h3>Projects</h3>
+				</div>
+				<div id="ProjectsImageContainer">
+					<div class="ProjectBox">
+						<h3>Typetypetype</h3>
+						<div class="ProjectBoxTextBody">
+							<p>
+								Typing speed
+								test
+								<span
+									class="bold"
+									>full-stack
+									web
+									app</span
+								>
+								that tracks WPM
+								and Accuracy.
+								Submitted scores
+								are saved in a
+								database and
+								displayed on a
+								leaderboard.
+							</p>
+							<p>
+								<span
+									class="bold"
+									>Built
+									With:</span
+								>
+								PostgreSQL,
+								Express,
+								ReactJS, NodeJS,
+								HTML, CSS
+							</p>
+						</div>
+						<div class="LinkContainer">
+							<h3>
+								<a
+									href="https://github.com/mitchglass97/typetypetype-web-app"
+									>GitHub
+									Link</a
+								>
+							</h3>
+							<h3>
+								<a
+									href="https://typetypetype-webapp.herokuapp.com/"
+									>Live
+									Link</a
+								>
+							</h3>
+						</div>
+					</div>
+					<div class="ProjectBox">
+						<h3>Mint Crypto</h3>
+						<div class="ProjectBoxTextBody">
+							<p>
+								<span
+									class="bold"
+									>Chrome
+									extension</span
+								>
+								that allows you
+								to easily update
+								the value of
+								your
+								cryptocurrency
+								in Mint.com
+								account. Fetches
+								cryptocurrency
+								price data from
+								the Binance API.
+							</p>
+							<p>
+								<span
+									class="bold"
+									>Built
+									With:</span
+								>
+								ReactJS, HTML,
+								CSS
+							</p>
+						</div>
+						<div class="LinkContainer">
+							<h3>
+								<a
+									href="https://github.com/mitchglass97/Mint-Crypto-Chrome"
+									>GitHub
+									Link</a
+								>
+							</h3>
+							<h3>
+								<a
+									href="https://chrome.google.com/webstore/category/extensions"
+									>Live
+									Link</a
+								>
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script
+			type="text/javascript"
+			src="fullpageJS/fullpage.js"
+		></script>
+		<script>
+			new fullpage("#fullpage", {
+				menu: ".nav",
+				anchors: ["page1", "page2", "page3", "page4"],
+				animateAnchor: true,
+				verticalCentered: false,
+				scrollHorizontally: false,
+				lockAnchors: false,
+				scrollBar: true,
+				scrollingSpeed: 700,
+			});
+			//methods
+			fullpage_api.setAllowScrolling(true);
+			fullpage_api.setScrollingSpeed(700);
+		</script>
+	</body>
+</html>
