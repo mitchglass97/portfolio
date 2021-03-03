@@ -132,6 +132,10 @@ li {
 	max-width: 600px;
 }
 
+#About {
+	height: 600px !important;
+}
+
 .section {
 	min-height: 800px;
 	min-width: 1300px;
