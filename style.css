@@ -233,7 +233,7 @@ a {
 	line-height: 100%;
 }
 
-@media screen and (min-width: 401px) and (max-width: 800px) {
+@media screen and (min-width: 450px) and (max-width: 900px) {
 	h3 {
 		color: #6c63ff;
 		font-weight: 900;
@@ -355,7 +355,87 @@ a {
 	}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 449px) {
+	h3 {
+		color: #6c63ff;
+		font-weight: 900;
+		font-size: 60px;
+		margin: 0;
+		padding: 0;
+	}
+	#header {
+		visibility: hidden;
+		min-width: 100px;
+	}
+
+	.section {
+		min-height: 100px;
+		min-width: 100px;
+	}
+
+	#Home {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		min-width: 100px;
+	}
+
+	#HomePageRight {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#HomePageRight img {
+		width: 350px;
+		padding-right: 0;
+		padding-bottom: 100px;
+	}
+
+	#Skills {
+		height: 850px !important;
+	}
+
+	#SkillsImageContainer,
+	#ProjectsImageContainer {
+		min-width: 100px;
+		flex-direction: column;
+	}
+
+	#SkillsTextContainer,
+	#ProjectsTextContainer {
+		padding-right: 0;
+		padding-left: 0;
+		min-width: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#AboutImageContainer img,
+	#SkillsImageContainer img {
+		padding-top: 50px;
+		max-width: 80%;
+	}
+
+	.SkillsBox {
+		width: 300px;
+		height: 250px;
+		background: #f1f0ff;
+		border-radius: 30px;
+		text-align: center;
+		padding: 30px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		margin-bottom: 75px;
+	}
+
 	.ProjectBox {
 		width: 300px;
 		height: 450px;
@@ -368,5 +448,31 @@ a {
 		justify-content: space-between;
 		flex-direction: column;
 		margin-bottom: 75px;
+	}
+
+	.SkillsBox h3,
+	.ProjectBox h3 {
+		font-size: 30px;
+	}
+
+	.SkillsBox h1,
+	.ProjectBox h1 {
+		font-size: 15px;
+	}
+
+	#AboutTextContainer h3,
+	#ProjectsTextContainer h3 {
+		padding-top: 50px;
+		color: #ffffff;
+	}
+
+	#SkillsTextContainer h3,
+	#ProjectsTextContainer h3 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	#Projects {
+		height: 1150px !important;
 	}
 }
