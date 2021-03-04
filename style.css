@@ -92,12 +92,6 @@ li {
 	background-color: #6c63ff;
 }
 
-#wave {
-	position: fixed;
-	bottom: -10px;
-	width: 100%;
-}
-
 #AboutTextContainer {
 	display: flex;
 	flex-direction: column;
