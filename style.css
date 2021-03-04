@@ -74,6 +74,11 @@ li {
 	-moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+#headerMobile {
+	visibility: hidden;
+}
+
 .nav li {
 	display: inline;
 }
@@ -246,6 +251,10 @@ a {
 		min-width: 100px;
 	}
 
+	#headerMobile {
+		visibility: hidden;
+	}
+
 	.section {
 		min-height: 100px;
 		min-width: 100px;
@@ -360,6 +369,10 @@ a {
 }
 
 @media screen and (max-width: 449px) {
+	#headerMobile {
+		visibility: hidden;
+	}
+
 	h3 {
 		color: #6c63ff;
 		font-weight: 900;
