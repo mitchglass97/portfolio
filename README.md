@@ -5,3 +5,4 @@
 Portfolio website written in vanilla JavaScript, HTML, and CSS. The site was made to be mobile-friendly using CSS media queries.
 
 I used the [fullPage.js](https://github.com/alvarotrigo/fullPage.js) library to give the website a nice full-screen scrolling experience.
+gi

@@ -24,26 +24,26 @@
 	<body>
 		<header id="header">
 			<ul class="nav">
-				<li data-menuanchor="page1">
+				<li data-menuanchor="HomePage">
 					<a href="#Home"
 						>Home
 						<img
 							src="./assets/home-outline.svg"
 					/></a>
 				</li>
-				<li data-menuanchor="page2">
+				<li data-menuanchor="AboutMePage">
 					<a href="#About"
 						>About Me<img
 							src="./assets/information-circle-outline.svg"
 					/></a>
 				</li>
-				<li data-menuanchor="page3">
+				<li data-menuanchor="SkillsPage">
 					<a href="#Skills"
 						>Skills<img
 							src="./assets/construct-outline.svg"
 					/></a>
 				</li>
-				<li data-menuanchor="page4">
+				<li data-menuanchor="ProjectsPage">
 					<a href="#Projects"
 						>Projects<img
 							src="./assets/cube-outline.svg"
@@ -213,7 +213,12 @@
 		<script>
 			new fullpage("#fullpage", {
 				menu: ".nav",
-				anchors: ["page1", "page2", "page3", "page4"],
+				anchors: [
+					"HomePage",
+					"AboutMePage",
+					"SkillsPage",
+					"ProjectsPage",
+				],
 				animateAnchor: true,
 				verticalCentered: false,
 				scrollHorizontally: false,
