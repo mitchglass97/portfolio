@@ -237,7 +237,7 @@ a {
 		padding: 0;
 	}
 	#header {
-		visibility: hidden;
+		visibility: visible;
 		min-width: 100px;
 	}
 
@@ -248,7 +248,7 @@ a {
 
 	#Home {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 		margin: 0;
@@ -267,9 +267,9 @@ a {
 	}
 
 	#HomePageRight img {
-		width: 350px;
-		padding-right: 0;
-		padding-bottom: 100px;
+		width: 500px;
+		padding-right: 50px;
+		padding-bottom: 0;
 	}
 
 	#Skills {
@@ -355,7 +355,7 @@ a {
 	}
 }
 
-@media screen and (min-width: 450px) and (max-width: 1049px) {
+@media screen and (min-width: 660px) and (max-width: 1049px) {
 	h3 {
 		color: #6c63ff;
 		font-weight: 900;
@@ -364,7 +364,7 @@ a {
 		padding: 0;
 	}
 	#header {
-		visibility: hidden;
+		visibility: visible;
 		min-width: 100px;
 	}
 
@@ -380,6 +380,7 @@ a {
 		align-items: center;
 		margin: 0;
 		padding: 0;
+		padding-top: 50px;
 		min-width: 100px;
 	}
 
@@ -482,7 +483,7 @@ a {
 	}
 }
 
-@media screen and (max-width: 449px) {
+@media screen and (max-width: 659px) {
 	h3 {
 		color: #6c63ff;
 		font-weight: 900;
