@@ -228,7 +228,134 @@ a {
 	line-height: 100%;
 }
 
-@media screen and (min-width: 450px) and (max-width: 1500px) {
+@media screen and (min-width: 1050px) and (max-width: 1500px) {
+	h3 {
+		color: #6c63ff;
+		font-weight: 900;
+		font-size: 60px;
+		margin: 0;
+		padding: 0;
+	}
+	#header {
+		visibility: hidden;
+		min-width: 100px;
+	}
+
+	.section {
+		min-height: 100px;
+		min-width: 100px;
+	}
+
+	#Home {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		min-width: 100px;
+	}
+
+	#About {
+		height: 700px !important;
+	}
+
+	#HomePageRight {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#HomePageRight img {
+		width: 350px;
+		padding-right: 0;
+		padding-bottom: 100px;
+	}
+
+	#Skills {
+		height: 600px !important;
+	}
+
+	#SkillsImageContainer,
+	#ProjectsImageContainer {
+		min-width: 100px;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	#SkillsTextContainer,
+	#ProjectsTextContainer {
+		padding-right: 0;
+		padding-left: 0;
+		min-width: 100px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#AboutImageContainer img,
+	#SkillsImageContainer img {
+		padding-top: 50px;
+		max-width: 50%;
+	}
+
+	.SkillsBox {
+		width: 300px;
+		height: 300px;
+		background: #f1f0ff;
+		border-radius: 30px;
+		text-align: center;
+		padding: 30px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		margin-bottom: 75px;
+	}
+
+	.ProjectBox {
+		width: 400px;
+		height: 400px;
+		background: #ffffff;
+		border-radius: 30px;
+		text-align: center;
+		padding: 30px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		margin-bottom: 75px;
+	}
+
+	.SkillsBox h3,
+	.ProjectBox h3 {
+		font-size: 23px;
+	}
+
+	.SkillsBox h1,
+	.ProjectBox h1 {
+		font-size: 20px;
+	}
+
+	#AboutTextContainer h3,
+	#ProjectsTextContainer h3 {
+		padding-top: 50px;
+		color: #ffffff;
+	}
+
+	#SkillsTextContainer h3,
+	#ProjectsTextContainer h3 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	#Projects {
+		height: 700px !important;
+	}
+}
+
+@media screen and (min-width: 450px) and (max-width: 1049px) {
 	h3 {
 		color: #6c63ff;
 		font-weight: 900;
@@ -296,12 +423,13 @@ a {
 	#AboutImageContainer img,
 	#SkillsImageContainer img {
 		padding-top: 50px;
-		max-width: 50%;
+		max-width: 500px;
+		min-width: 350px;
 	}
 
 	.SkillsBox {
-		width: 300px;
-		height: 250px;
+		width: 350px;
+		height: 270px;
 		background: #f1f0ff;
 		border-radius: 30px;
 		text-align: center;
@@ -329,12 +457,12 @@ a {
 
 	.SkillsBox h3,
 	.ProjectBox h3 {
-		font-size: 30px;
+		font-size: 23px;
 	}
 
 	.SkillsBox h1,
 	.ProjectBox h1 {
-		font-size: 15px;
+		font-size: 20px;
 	}
 
 	#AboutTextContainer h3,
