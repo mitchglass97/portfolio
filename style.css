@@ -555,6 +555,7 @@ a {
 		margin: 0;
 		padding: 0;
 		min-width: 100px;
+		height: 900px !important;
 	}
 
 	#About {
