@@ -11,6 +11,14 @@ body {
 	min-width: 1500px;
 }
 
+label {
+	visibility: hidden;
+}
+
+#toggle {
+	visibility: hidden;
+}
+
 #HomePageRight img {
 	width: 700px;
 	padding-right: 200px;
@@ -491,9 +499,47 @@ a {
 		margin: 0;
 		padding: 0;
 	}
+
 	#header {
-		visibility: hidden;
+		visibility: visible;
 		min-width: 100px;
+	}
+
+	label {
+		visibility: visible;
+		position: absolute;
+		margin-right: 25px;
+		font-size: 20px;
+	}
+
+	#toggle {
+		visibility: hidden;
+		position: absolute;
+	}
+
+	ul {
+		padding-top: 500px;
+		flex-direction: column;
+		width: 100%;
+		visibility: hidden;
+		background-color: white;
+	}
+
+	li {
+		width: 100%;
+	}
+
+	li a {
+		float: right;
+		padding-right: 20px;
+	}
+
+	#toggle:checked + ul {
+		visibility: visible;
+	}
+
+	li {
+		height: 75px;
 	}
 
 	.section {

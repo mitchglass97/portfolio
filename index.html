@@ -40,28 +40,32 @@
 	</head>
 	<body>
 		<header id="header">
+			<label for="toggle">&#9776;</label>
+			<input type="checkbox" id="toggle" />
 			<ul class="nav">
 				<li data-menuanchor="HomePage">
-					<a href="#Home"
+					<a href="#Home" onclick="closeMenu()"
 						>Home
 						<img
 							src="./assets/home-outline.svg"
 					/></a>
 				</li>
 				<li data-menuanchor="AboutMePage">
-					<a href="#About"
+					<a href="#About" onclick="closeMenu()"
 						>About Me<img
 							src="./assets/information-circle-outline.svg"
 					/></a>
 				</li>
 				<li data-menuanchor="SkillsPage">
-					<a href="#Skills"
+					<a href="#Skills" onclick="closeMenu()"
 						>Skills<img
 							src="./assets/construct-outline.svg"
 					/></a>
 				</li>
 				<li data-menuanchor="ProjectsPage">
-					<a href="#Projects"
+					<a
+						href="#Projects"
+						onclick="closeMenu()"
 						>Projects<img
 							src="./assets/cube-outline.svg"
 					/></a>
@@ -252,5 +256,6 @@
 			fullpage_api.setAllowScrolling(true);
 			fullpage_api.setScrollingSpeed(550);
 		</script>
+		<script type="text/javascript" src="index.js"></script>
 	</body>
 </html>
