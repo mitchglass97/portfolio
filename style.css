@@ -424,7 +424,7 @@ a {
 	#AboutImageContainer img,
 	#SkillsImageContainer img {
 		padding-top: 50px;
-		max-width: 375px;
+		max-width: 500px;
 		min-width: 350px;
 	}
 
@@ -550,8 +550,8 @@ a {
 
 	#AboutImageContainer img,
 	#SkillsImageContainer img {
-		padding-top: 50px;
-		max-width: 80%;
+		padding-top: 40px;
+		max-width: 75%;
 	}
 
 	.SkillsBox {
