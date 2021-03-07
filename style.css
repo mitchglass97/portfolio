@@ -522,7 +522,7 @@ a {
 		flex-direction: column;
 		width: 100%;
 		visibility: hidden;
-		background-color: white;
+		background-color: #f5f5f5;
 	}
 
 	li {
