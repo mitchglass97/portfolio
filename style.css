@@ -567,6 +567,10 @@ a {
 		width: 100%;
 	}
 
+	#HomePageLeft {
+		padding-top: 50px;
+	}
+
 	#HomePageRight img {
 		width: 350px;
 		padding-right: 0;
