@@ -390,6 +390,7 @@ a {
 		padding: 0;
 		padding-top: 50px;
 		min-width: 100px;
+		min-height: 700px;
 	}
 
 	#About {
