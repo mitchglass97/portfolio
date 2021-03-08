@@ -32,8 +32,8 @@ label {
 }
 
 #HomePageRight img {
-	width: 700px;
-	padding-right: 200px;
+	width: 50vw;
+	padding-right: 150px;
 	animation: animateFadeInMoveUp 1s ease 0s 1 normal none;
 }
 
@@ -56,7 +56,7 @@ label {
 h3 {
 	color: #6c63ff;
 	font-weight: 900;
-	font-size: 75px;
+	font-size: 80px;
 	margin: 0;
 	padding: 0;
 }
@@ -254,7 +254,7 @@ a {
 	h3 {
 		color: #6c63ff;
 		font-weight: 900;
-		font-size: 60px;
+		font-size: 75px;
 		margin: 0;
 		padding: 0;
 	}
@@ -289,7 +289,7 @@ a {
 	}
 
 	#HomePageRight img {
-		width: 500px;
+		width: 50vw;
 		padding-right: 50px;
 		padding-bottom: 0;
 	}
@@ -418,7 +418,7 @@ a {
 	}
 
 	#HomePageRight img {
-		width: 500px;
+		width: 70vw;
 		padding-right: 0;
 		padding-bottom: 100px;
 	}
@@ -587,7 +587,7 @@ a {
 	}
 
 	#HomePageRight img {
-		width: 350px;
+		width: 70vw;
 		padding-right: 0;
 		padding-bottom: 100px;
 	}

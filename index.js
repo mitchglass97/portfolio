@@ -17,3 +17,7 @@ function closeMenu() {
 		}, 2);
 	}
 }
+
+function myTest() {
+	console.log("testing");
+}
