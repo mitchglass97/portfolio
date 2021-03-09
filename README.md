@@ -1,6 +1,6 @@
 # Portfolio
 
-![Portfolio Home Page](https://user-images.githubusercontent.com/52224377/109893368-27fcb480-7c51-11eb-84b9-97f7cdbb9eb4.PNG)
+![portfolio](https://user-images.githubusercontent.com/52224377/110433461-1747a680-8076-11eb-8377-9ae9a52dc7bd.PNG)
 
 [Live Link](https://mitchglass.dev/)
 
