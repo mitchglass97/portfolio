@@ -2,7 +2,7 @@
 
 ![portfolio](https://user-images.githubusercontent.com/52224377/110433461-1747a680-8076-11eb-8377-9ae9a52dc7bd.PNG)
 
-[Live Link](https://mitchglass.dev/)
+This web app is hosted on Netlify at [https://mitchglass.dev/](https://mitchglass.dev/)
 
 Portfolio website written in vanilla JavaScript, HTML, and CSS. The site was made to be mobile-friendly using CSS media queries.
 
