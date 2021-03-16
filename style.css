@@ -168,7 +168,7 @@ li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .SkillsBox {
@@ -185,8 +185,8 @@ li {
 }
 
 .ProjectBox {
-	width: 550px;
-	height: 450px;
+	width: 400px;
+	height: 500px;
 	background: #ffffff;
 	border-radius: 30px;
 	text-align: center;
@@ -199,7 +199,7 @@ li {
 
 .SkillsBox h3,
 .ProjectBox h3 {
-	font-size: 50px;
+	font-size: 35px;
 }
 
 .ProjectBoxTextBody {
@@ -250,7 +250,7 @@ a {
 	line-height: 100%;
 }
 
-@media screen and (min-width: 1050px) and (max-width: 1500px) {
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
 	h3 {
 		color: #6c63ff;
 		font-weight: 900;
@@ -337,8 +337,8 @@ a {
 	}
 
 	.ProjectBox {
-		width: 400px;
-		height: 400px;
+		width: 350px;
+		height: 450px;
 		background: #ffffff;
 		border-radius: 30px;
 		text-align: center;
@@ -373,11 +373,11 @@ a {
 	}
 
 	#Projects {
-		height: 700px !important;
+		height: 800px !important;
 	}
 }
 
-@media screen and (min-width: 720px) and (max-width: 1049px) {
+@media screen and (min-width: 720px) and (max-width: 1299px) {
 	h3 {
 		color: #6c63ff;
 		font-weight: 900;
@@ -502,7 +502,7 @@ a {
 	}
 
 	#Projects {
-		height: 1150px !important;
+		height: 1650px !important;
 	}
 }
 
@@ -670,6 +670,6 @@ a {
 	}
 
 	#Projects {
-		height: 1300px !important;
+		height: 1800px !important;
 	}
 }
