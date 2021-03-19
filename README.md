@@ -12,4 +12,4 @@ Below is a mockup I made in Figma of a new design for my portfolio. I think it h
 
 I am going to implement the new design using Bootstrap. I will also not be using FullPageJS.
 
-![Re-design](https://i.imgur.com/YN22ugR.png)
+![Re-design](https://user-images.githubusercontent.com/52224377/111713050-d6415600-881c-11eb-905b-50cb3c39707d.png)
